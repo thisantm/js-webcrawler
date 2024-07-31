@@ -1,0 +1,19 @@
+{
+  "name": "js-webcrawler",
+  "version": "1.0.0",
+  "description": "a project for a webcrawler",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Thiago Sant'Anna Machado",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1"
+  }
+}
